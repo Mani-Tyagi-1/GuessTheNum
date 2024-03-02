@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#input{
+  width: 4rem;
+  height: 2rem;
+  font-size: 1.25rem;
+}
+
+
+
+/* To remove the increase and decrease arrow from input field of numeric type */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Optional: Remove default spacing */
+}
+
+
